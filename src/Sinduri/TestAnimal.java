@@ -23,11 +23,11 @@ public class TestAnimal {
         // Downcast
         Dog dog2 = (Dog) animal2;
         BigDog bigDog2 = (BigDog) animal3;
-        Dog dog3 = (Dog) animal3;
+//        Dog dog3 = (Dog) animal3;
         //Class Dog cannot be cast to Class Cat
         //Cat cat2 = (Cat) animal2;
-        dog2.greeting(dog3);
-        dog3.greeting(dog2);
+        dog2.greeting(dog2);
+        dog2.greeting();
         //After changing the BigDog class as a sub-class to Animal, the Dog method with the parameter cannot be applied to BigDog.
 /*        dog2.greeting(bigDog2);
         bigDog2.greeting(dog2);
